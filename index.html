@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maithli</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+		<style type="text/css">
+
+
+
+html {
+  --scrollbarBG: white;
+  --thumbBG: #de0000;
+}
+body::-webkit-scrollbar {
+  width: 21px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 20px;
+  border: 5px solid var(--scrollbarBG);
+}	
+
+			#navicon img
+	{
+		width: 100px;
+		height: 80px;
+		cursor:pointer!important;
+		position: absolute;
+		top: 40px;
+		left: 85.8%;
+         transform: rotateZ(40deg);
+		z-index:9999;
+		visibility: hidden;
+		
+	}
+
+	#nav-bg
+	{
+		list-style: none;
+		position: absolute;
+		top: 0px;
+		left:0%;
+        background:linear-gradient(to top left,#ffffff99,#ffffff99),url("3.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+   padding-top: 100px;
+	    padding-bottom: 100px;
+		border-radius: 180px;
+		width: 100%;
+		height: 100%;
+		padding: 50px;
+		transition: 1s;
+		z-index:99999;
+		visibility: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden!important;
+		background-attachment: fixed;
+		
+
+	}
+	#nav-i{
+		margin: auto;
+		text-align: center;
+		padding-top: 0PX;
+	color: white;
+    width: 80%;
+    color:#de0000;
+	border-top: 2px solid #de0000;
+	border-bottom: 2px solid #de0000;
+	transition: 0.5s;
+	margin-top: 50px;
+		background-color:white;
+
+		
+	}
+
+	#nav-i:hover{
+		color: #de0000;
+	border-top: 4px solid #de000089!important;
+	border-bottom: 4px solid #de000089!important;
+	background-color:black;
+	width: 99%;
+	cursor: pointer;
+
+
+	}
+
+	#close{
+		position: relative;
+	left:40%;
+	color:#de0000!important;
+	border-top: none!important;
+	border-bottom: none!important;
+	cursor:pointer;
+	text-align: center;
+	
+	
+	}
+		
+		#home-div{
+			height: 100vh;
+			width: 100%;
+			background:url(pattern.png); 
+			background-color:#DE0000 ;
+
+		}
+		button:focus{
+			outline: none;
+		}
+		html, body {
+    overflow-x: hidden;
+    width: 100%;
+
+}
+		
+	#logo{
+		color:#DE0000 ;
+		font-family: 'Sansita Swashed', cursive;
+		border:5px double red;
+		width: 150px;
+		text-align: center;
+		padding: 10px 0px 10px 0px;
+		font-size: 21px;
+	background-color: white;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	letter-spacing: 2px;
+
+
+	}
+	#n-d{
+
+		position: absolute;
+	top: 5px;
+	padding: 0;
+
+	}
+
+	#nav{
+		margin-left: auto;
+		width: 600px;
+		padding-left: 90px;
+	}
+
+	
+
+#nav-1,#nav-2,#nav-3,#nav-4,#nav-5{
+	list-style: none;
+	color:black;
+		font-family: 'Sansita Swashed', cursive;
+		border:5px double red;
+		width: 100px;
+		text-align: center;
+		padding: 5px 0px 5px 0px;
+		font-size: 18px;
+	background-color: white;
+	cursor: pointer;
+	
+	
+	letter-spacing: 2px;
+}
+ul li{
+	float: left;
+	transition: 0.5s;
+}
+ul li:hover{
+	background-color: #DE0000 ;
+	border:5px double white;
+	color:white;
+
+}
+#nav-1:hover{
+	background-color: #DE0000 ;
+	border:5px double white;
+	color:white;
+}
+#nav-2:hover{
+	background-color: #DE0000 ;
+	border:5px double white;
+	color:white;
+}
+#nav-3:hover{
+	background-color: #DE0000 ;
+	border:5px double white;
+	color:white;
+}
+#nav-4:hover{
+	background-color: #DE0000 ;
+	border:5px double white;
+	color:white;
+}
+#nav-5:hover{
+	background-color: #DE0000 ;
+	border:5px double white;
+	color:white;
+}
+
+#nav-2{
+	margin-top: 44px;
+}
+#nav-3{
+	margin-top: 88px;
+}
+
+#nav-4{
+	margin-top: 132px;
+}
+#nav-5{
+	margin-top: 176px;
+}
+
+#icon{
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	height: 0px;
+
+}
+#icon-d{
+	width: 220px;
+	
+	text-align: center;
+	height: 100px;
+	padding-top: 10px;
+	margin-left: auto;
+	
+	
+	
+
+}
+
+
+#icon-1,#icon-2,#icon-3,#icon-4{
+border-radius: 100%;
+	background-color: white;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #DE0000;
+	border: 2px solid black;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#icon-1:hover{
+ background-color: black;
+ color:white;
+ border: 2px solid white;
+
+}
+#icon-2:hover{
+ background-color: black;
+ color:white;
+ border: 2px solid white;
+
+}
+#icon-3:hover{
+ background-color: black;
+ color:white;
+ border: 2px solid white;
+
+}
+#icon-4:hover{
+ background-color: black;
+ color:white;
+ border: 2px solid white;
+
+}
+
+#div-para{
+		position: absolute;
+		top: 290px;
+}
+	
+	#div-para h1{
+		font-size: 100px;
+		font-family: 'Sansita Swashed', cursive;
+		color: white;
+	
+	
+	}
+		#div-para p{
+		font-size: 40px;
+		font-family: 'Sansita Swashed', cursive;
+		color: #B1ACAC ;
+	
+	
+	}
+	#div-para h6{
+		font-size: 25px;
+		font-family: 'Sansita Swashed', cursive;
+		color:#00000095;
+		letter-spacing: 5px;
+	
+	
+	}
+	#div-para button{
+font-family: 'Sansita Swashed', cursive;
+	background-color: transparent;
+	border: 5px double white;
+	color: white;
+	font-size: 22px;
+	margin-top: 20px;	
+	padding: 10px 15px 10px 15px;
+	transition: 0.4s;
+	letter-spacing: 2px;
+	width: 210px;
+
+}
+#div-para button:hover{
+	color: black;
+	border: 7px double black;
+	background-color:white;
+	width: 250px;
+	}
+
+/*//sec-2//*/
+#sec-2{
+	font-family: 'Sansita Swashed', cursive;
+	margin-top: 50px;
+}
+
+#sec-2 h1{
+	font-size: 45px;
+}
+#sec-2 h4{
+	font-weight: 900;
+	font-size: 29px;
+	margin-top: -25px;
+}
+#sec-2 p{
+color: #00000095;
+margin-top: 25px;
+}
+
+#sec-2-div-1{
+	margin-bottom: 50px!important;
+	height: 400px;
+}
+
+#sec-2-div-1 img{
+width: 100%;
+height: 350px;
+border: 10px double #DE000099;
+
+}
+#sec-2-div-1 div{
+	background-color: #DE0000!important;
+	padding:15px 0px 15px 0px; 
+	background:url("pattern.png");
+}
+#sec-2-div-1 p{
+	margin-top: 10px;
+	color:#F29393;
+	font-family: 'Sansita Swashed', cursive;
+	font-weight: 500;
+
+}
+#sec-2-div-1 span{
+text-decoration: line-through;
+font-weight: bold;
+padding-right: 20px;
+color:#ffffff99;
+font-size: 20px;
+font-family: 'Sansita Swashed', cursive;
+}
+#sec-2-div-1 button{
+	font-family: 'Sansita Swashed', cursive;
+	background-color: #DE0000;
+	border: 2px solid white;
+	color: white;
+	border-radius: 50px;	
+	font-size: 18px;
+	margin-top: 20px;	
+	padding: 5px 5px 5px 5px;
+	transition: 0.4s;
+	letter-spacing: 2px;
+	width: 100px;
+
+}
+#but-sec-1 i{
+color: white; padding-right: 10px;
+font-size: 25px;
+}
+#but-sec-1{
+color: black!important;
+background-color: #de000089!important;
+width: 60%!important;
+}
+#but-sec-1:hover{
+	width: 90%!important;
+	background-color: #de0012!important;
+	color: white!important;
+}
+#load-m{
+	color: white!important;
+background-color: #de000089!important;
+width: 31%!important;
+border-radius: 10px;
+font-family: 'Sansita Swashed', cursive;
+padding: 5px;
+transition: 0.5s;
+font-size: 20px;
+background-color: red!important;
+border: 6px double white;	
+}
+#load-m:hover{
+	color:black!important;
+	width: 40%!important;
+	background-color: red!important;
+	border: 4px solid black;
+}
+#load-m:hover>i{
+	color:black!important;
+	padding-right: 40px;
+}
+#load-m i{
+	color: white;
+	padding-right: 20px;
+	transition: 0.5s;
+}
+
+#sale{
+	background-color: #de000a!important;
+	background:url("pattern.png"); 
+	margin-top: 100px;
+	padding: 50px 20px 50px 20px;
+}
+#sale h2{
+	color: #ffffff99;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 40px;
+}
+#sale h6{
+	color: #ffffff99;
+	margin-top: -20px;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 20px;
+}
+#sale h1{
+	color: #ffffff;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 100px;
+	text-shadow: 0 0 4px black,10px 10px 10px black;
+}
+#sale p{
+	color:#00000099;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 25px;
+
+}
+#sale button{
+	color: white;
+	background-color: #000000;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 20px;
+	border: 4px double white;
+	padding: 10px 20px;
+	width: 170px;
+	transition: 0.5s;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+#sale button:hover{
+	width: 240px;
+	color: white!important;
+	background-color: #de000089;
+
+}
+
+/*//swiper js testimonial//*/
+
+
+  body {
+      position: relative;
+      height: 100%;
+    }
+  
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   
+      color: #000;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .swiper-container {
+      width: 90%;
+      height: 100%;
+      margin-top: 50px;
+      overflow-x: hidden;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color:#FF4545!important;
+      background: url("pattern.png");
+      height: 500px;
+      border: 2px solid #fff;
+      box-shadow: 0 0 2px black;
+    
+    }
+
+.fa-quote-right{
+	margin: -200px!important;
+	font-size: 50px;
+	position: relative;
+	top: 50px;
+	color: white;
+
+	
+
+}
+    #t-img-d{
+    	height: 120px!important;
+    	width: 120px!important;
+    	border-radius: 120px;
+     
+    	overflow: hidden;
+    }
+    #t-img{
+    	height: 120px!important;
+    	width: 120px!important;
+    	border-radius: 100%;
+    	margin-top: 70px;
+    	border: 1px solid white;
+    }
+    #t-name{
+    	font-weight: bolder;
+    	color: #fff;
+    	font-family: 'Sansita Swashed', cursive;
+    		letter-spacing: 1px;
+
+
+    }
+    #t-icon{
+    
+    		color: #00000090;
+    		font-family: 'Sansita Swashed', cursive;
+    		letter-spacing: 1px;
+    		font-size:18px;
+    }
+      #t-icon i{
+      	font-size: 20px;
+      	
+      	font-weight: 900;
+      }
+    #rev{
+    	color: #ffffff99;
+    	padding: 20px;
+
+    	text-align: center;
+    	font-family: 'Sansita Swashed', cursive;
+    }
+
+/*//last section//*/
+
+#logo-l{
+		color:white;
+		font-family: 'Sansita Swashed', cursive;
+		border:5px double white;
+		width: 350px;
+		margin:auto;
+		height: 180px;
+		text-align: center;
+		padding: 10px 0px 10px 0px;
+		font-size: 95px;
+	background-color:white!important;
+margin-top: 80px;
+	letter-spacing: 2px;
+	background: linear-gradient(to top left,#00000099,#00000099),url(3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+	}
+
+	#sec-l{
+  margin-top: 150px;
+  background-color:#892D2D;
+  padding-bottom: 60px;	
+  z-index: 999999;
+
+  overflow:hidden; 
+	}
+	#sec-2-l{
+		  margin-top: 100px!important;
+	}
+	#sec-2-l h1{
+      font-weight: 700;
+      text-transform: capitalize;
+      font-family: 'Sansita Swashed', cursive;
+      color: white;
+    
+	}
+	#sec-2-l p{
+   font-weight: 500;
+   text-transform: capitalize;
+   font-family: 'Sansita Swashed', cursive;
+   letter-spacing: 2px;
+   color: #ffffff90;
+   transition: 0.4s;
+   cursor: pointer;
+   font-size: 18px;
+	}
+	#sec-2-l p:hover{
+		font-size: 20px;
+		margin-left: 50px;
+		font-weight: 700;
+		 color: #FFAEAE;
+	}
+	#sec-3-l{
+		 margin-top: 100px!important;
+	}
+
+	#sec-3-l h1{
+		font-weight: 700;
+      text-transform: capitalize;
+      font-family: 'Sansita Swashed', cursive;
+      color: white;
+	}
+	#sec-3-l p{
+   font-weight: 500;
+   text-transform: capitalize;
+   font-family: 'Sansita Swashed', cursive;
+    letter-spacing: 2px;
+   color: #ffffff90;
+   transition: 0.4s;
+	}
+	#sec-3-l p:hover{
+		cursor: pointer;
+		
+		 color: #FFAEAE;
+	}
+	
+	#sec-3-l i{
+		font-size: 45px;
+	}
+	#sec-3-l input:focus{
+outline:none;
+	}
+	#sec-3-l input{
+background-color: #00000090;
+height: 40px;
+border: 0px solid white;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;	
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+color:white;
+
+
+	}
+	#sec-3-l button{
+    background-color:white;
+    height: 40px;
+   border: 1px solid white;
+   border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;	
+color: #de0000;
+padding-left: 20px;
+padding-right: 20px;
+font-family: 'Sansita Swashed', cursive;
+transition: 0.4s;
+	}
+	#sec-3-l button:hover{
+		margin-left: 20px;
+
+	}
+   .fa-envelope{
+	font-size: 35px!important;
+	}
+	
+/*	//resposive section//*/
+
+@media(min-width: 1073px) {
+
+}
+
+@media(min-width: 992px) and (max-width: 1072px){
+#sec-3-l button{
+margin-top: 20px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-radius: 20px;
+
+}
+}
+
+@media(min-width:560px) and (max-width: 768px){
+	
+	#navicon img
+	{
+		width: 100px;
+		height: 80px;
+		cursor:pointer;
+		position: absolute;
+		top: 40px;
+		left: 74.8%;
+
+		transform: rotateZ(40deg);
+		z-index:9999;
+		visibility: visible;
+		
+	}
+
+	#icon{
+	position: absolute;
+	top: 620px;
+	width: 100%;
+	height: 0px;
+	transition: 0.5s;
+
+}
+#icon-d{
+	width: 220px;
+	
+	text-align: center;
+	height: 100px;
+	padding-top: 10px;
+	margin: auto;
+}
+#div-para h1{
+	font-size: 70px;
+}
+#div-para p{
+	font-size: 27px;
+}
+#div-para h6{
+	font-size: 18px;
+}
+
+#div-para button{
+	width: 170px;
+	font-size: 17px;
+}
+#div-para button:hover{
+	width: 210px;
+	
+}
+
+#nav{
+	visibility: hidden;
+}
+}
+
+@media(min-width:460px) and (max-width:560px){
+
+#div-para h1{
+	font-size: 50px!important;
+}
+			
+#navicon img
+	{
+		width: 100px;
+		height: 80px;
+		cursor: url(hand.png),auto;
+		position: absolute;
+		top: 40px;
+		left: 70.8%;
+
+		transform: rotateZ(40deg);
+		z-index:9999;
+		visibility: visible;
+		
+	}
+
+	#icon{
+	position: absolute;
+	top: 580px;
+	width: 100%;
+	height: 0px;
+	transition: 0.5s;
+
+}
+
+#icon-d{
+	width: 220px;
+	
+	text-align: center;
+	height: 100px;
+	padding-top: 10px;
+	margin: auto;
+}
+#div-para p{
+	font-size: 22px!important;
+}
+#div-para h6{
+	font-size: 15px!important;
+}
+#load-m{
+	font-size: 18px;
+	width: 40%!important;
+}
+#load-m:hover{
+width: 55%!important;
+}
+#sale h1{
+	font-size: 85px;
+}
+
+#div-para button{
+	width: 170px;
+	font-size: 17px;
+}
+#div-para button:hover{
+	width: 210px;
+	
+}
+
+
+#nav{
+	visibility: hidden;
+}
+
+}
+
+@media(min-width:320px) and (max-width:460px){
+
+
+#navicon img
+	{
+		width: 100px;
+		height: 80px;
+		cursor: pointer;
+		position: absolute;
+		top: 40px;
+		left: 70.8%;
+
+		transform: rotateZ(40deg);
+		z-index:9999;
+		visibility: visible;
+		
+	}
+
+html{
+	overflow-x:hidden!important;
+}
+	#icon{
+	position: absolute;
+	top: 560px;
+	width: 100%;
+	height: 0px;
+	transition: 0.5s;
+
+}
+
+#icon-d{
+	width: 220px;
+	
+	text-align: center;
+	height: 100px;
+	padding-top: 10px;
+	margin: auto;
+}
+#div-para{
+	width: 100%;
+}
+#n-d{
+	width: 20%;
+}
+
+	#sec-2 h1{
+		font-size: 25px;
+	}
+
+	#sec-2 p{
+		font-size: 15px;
+	}
+	#sec-2-div-1 img{
+		height: 220px;
+	}
+	#sec-2-div-1{
+		margin-bottom:-70px!important;
+	}
+	#but-sec-1{
+		width: 80%!important;
+	}
+#div-para h1{
+	font-size: 37px!important;
+}
+#div-para p{
+	font-size: 18px!important;
+}
+#div-para h6{
+	font-size: 14px!important;
+}
+
+#load-m{
+	font-size: 15px;
+	width: 70%!important;
+}
+#load-m:hover{
+width: 90%!important;
+}
+#sale h2{
+	font-size: 21px;
+}
+#sale h1{
+	font-size: 55px;
+}
+#sale p{
+	font-size: 15px;
+}
+
+#div-para button{
+	width: 170px;
+	font-size: 17px;
+}
+#div-para button:hover{
+	width: 210px;
+	
+}
+#sec-2 i{
+font-size: 60px!important;
+}
+
+.swiper-slide{
+	height: 460px;
+}
+#rev{
+	font-size: 14px;
+}
+#logo-l{
+	width: 90%;
+	height: 100px;
+	font-size: 45px;
+}
+
+#nav{
+	visibility: hidden;
+}
+#sec-3-l input{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-radius: 10px;
+}
+#sec-3-l button{
+margin-top: 20px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-radius: 20px;
+margin-left: 20px;
+}
+#sec-3-l button:hover{
+	background-color: black;
+	color:#de0000;
+
+}
+#copyright{
+	font-size: 14px!important;
+}
+
+}
+
+@media(min-width: 319px){
+
+}
+
+
+
+</style>
+
+	
+	
+
+</head>
+
+<body>
+<div class="container-fluid" id="home-div" >
+	<div id="logo"data-aos="fade-right">Maithli</div>
+</div>
+
+<div id="navicon" onclick="navfunction();" data-aos="fade-up">
+		<img src="nav-icon.png">
+		
+	</div>
+	
+		<div  id="nav-bg" data-aos="fade-up">
+			 <p  class="animate__animated animate__fadeInLeft" onclick="closee();" id="close" ><i  class="fa fa-close"></i></p>
+        <p id="nav-i" class="animate__animated animate__fadeInLeft" style="border-top: 2px solid #de0000;
+	border-bottom: 2px solid #de0000;">Home</p>
+		<p  id="nav-i"class="animate__animated animate__fadeInLeft">About</p>
+		<p id="nav-i" class="animate__animated animate__fadeInLeft">Pages</p>
+		<p id="nav-i" class="animate__animated animate__fadeInLeft">Painting</p>
+		<p  id="nav-i" class="animate__animated animate__fadeInLeft">Contact</p>
+	</div>
+
+<div id="n-d" class="container-fluid" data-aos="fade-up">
+	
+<ul id="nav" >
+	<li id="nav-1">Home</li>
+	<li id="nav-2">About</li>
+	<li id="nav-3">Pages</li>
+	<li id="nav-4">Painting</li>
+	<li id="nav-5">Contact</li>
+</ul>
+</div>
+
+<div id="icon" data-aos="fade-up">
+	<div id="icon-d">
+		<span id="icon-1"><i class="fa fa-facebook"></i></span>
+		<span id="icon-2"><i class="fa fa-pinterest-p"></i></span>
+		<span id="icon-3"><i class="fa fa-twitter"></i></span>
+		<span id="icon-4"><i class="fa fa-instagram"></i></span>
+	</div>
+</div>
+
+<div class="container-fluid text-center" data-aos="flip-left" id="div-para">
+	<h1>Mithila Painting</h1>
+	<p><span style="color:white;">Painting</span> Is Not Only An <span style="color: white;">Art</span>,<br>It's Our <span style="color: white;">Culture...</span></p>
+	<h6>Jai <span style="color: white;">Mithila</span>,Jai <span style="color: white;">Bharat</span></h6>
+	<button>Explore Now</button>
+</div>
+
+
+<!-- ///sec 2/// -->
+
+<div class="container-fluid text-center" id="sec-2" data-aos="fade-right">
+	<h1>Madhubani Painting</h1>
+	<h4>__________________</h4>
+	<p>Madhubani Painting Is Not Only An Art,Its Our Culture...</p>
+</div>
+
+<div class="container" style="margin-top: -100px;" data-aos="fade-left">
+	<div class="row">
+		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" style="margin-top: 150px!important;" id="sec-2-div-1">
+			<img src="1.jpg">
+			<div>
+			<p>Mithila Beautiful Mithila <br> Painting of Shree Ganesha</p>
+			<span>₹899</span><button>₹800</button>
+
+		</div>
+		
+			<button id="but-sec-1"><i class="fa fa-cart-arrow-down"></i>Add To Cart</button>
+			
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" style="margin-top: 150px!important;" id="sec-2-div-1">
+			<img src="2.jpg">
+			<div>
+			<p>Mithila Beautiful Mithila <br> Painting of Radhe Krishna</p>
+			<span>₹989</span><button>₹721</button>
+			
+			</div>
+			
+			<button id="but-sec-1"><i class="fa fa-cart-arrow-down"></i>Add To Cart</button>
+			
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" style="margin-top: 150px!important;" id="sec-2-div-1">
+			<img src="3.jpg">
+			<div>
+			<p>Mithila Beautiful Mithila <br> Painting of Maa Yashoda And Bal Gopal</p>
+			<span>₹1000</span><button>₹799</button>
+			
+			</div>
+			
+			<button id="but-sec-1"><i class="fa fa-cart-arrow-down"></i>Add To Cart</button>
+			
+		</div>
+	</div>
+
+
+	<div class="row" style="margin-top: 100px;" data-aos="fade-right">
+		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" style="margin-top: 150px!important;" id="sec-2-div-1">
+			<img src="4.jpg">
+			<div>
+			<p>Mithila Beautiful Mithila <br> Painting of Four Fish</p>
+			<span>₹1199</span><button>₹820</button>
+
+		</div>
+		
+			<button id="but-sec-1"><i class="fa fa-cart-arrow-down"></i>Add To Cart</button>
+			
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" style="margin-top: 150px!important;" id="sec-2-div-1">
+			<img src="5.jpg">
+			<div>
+			<p>Mithila Beautiful Mithila <br> Painting of Hanumanji</p>
+			<span>₹789</span><button>₹721</button>
+			
+			</div>
+			
+			<button id="but-sec-1"><i class="fa fa-cart-arrow-down"></i>Add To Cart</button>
+			
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" style="margin-top: 150px!important;" id="sec-2-div-1">
+			<img src="6.jpg">
+			<div>
+			<p>Mithila Beautiful Mithila <br> Painting of Mata Rani With sher(lion)</p>
+			<span>₹1011</span><button>₹721</button>
+			
+			</div>
+			
+			<button id="but-sec-1"><i class="fa fa-cart-arrow-down"></i>Add To Cart</button>
+			
+		</div>
+	</div>
+<br>
+	<div class="container d-block m-auto text-center" style="margin-top: 150px!important;">
+	<button id="load-m"><i class="fa fa-location-arrow"></i>load More</button>
+	</div>
+</div>
+
+
+<!-- ////sale///// -->
+
+<div class="container-fluid d-block text-center" id="sale" data-aos="flip-up">
+	<h2>Madhubani Collection</h2>
+	<h6>______</h6>
+	<h1>28% OFF</h1>
+	<p>On All Madhubani Collection</p>
+	<button>Coming Soon</button>
+
+</div>
+
+<!-- //testimonial// -->
+
+<div class="container-fluid text-center" id="sec-2" style="margin-bottom: 150px;margin-top: 100px;" data-aos="fade-right">
+	<h1>Testimonials</h1>
+	<h4>__________________</h4>
+		<i class="fa fa-quote-right" style="color:#de000089;font-size: 80px;"></i><br>
+</div>
+<!-- //swiper js testimonial// -->
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper " data-aos="flip-up">
+
+      <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" data-aos="flip-up" id="t-img"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Ashutosh Jha</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> Yesaj9354</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+
+       <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Shivam Anand</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> shivam8254</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+        <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Yash Verma</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> Yash5654</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+       <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Shubham Mishra</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> subhammi54</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only  an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+        <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Suraj Mishra</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> surajmi425</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+       <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Rajesh Kumar Mishra</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> raj8880</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+        <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Chandan Kumar Mishra</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> chandan2354</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+        <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img"data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Abdul galib</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> Abdul078</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+       <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">vaibhav Lohani</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> vaibhav2754</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+       <div class="swiper-slide">
+      	<i class="fa fa-quote-right"></i><br>
+      	<span id="t-img-d">
+      	<img src="1-p.jpg" id="t-img" data-aos="flip-up"></span>
+      	<br><br>
+      	<Span id="t-name" data-aos="fade-right">Nitin Dua</Span><br>
+      	<span id="t-icon" data-aos="fade-right"> <i class="fa fa-instagram"></i> nitt2854</span><br>
+
+      	<div id="rev" data-aos="flip-left">
+I agree with Maithli website that painting is not only an art, it's our culture and tradition, which has been going on from generation to generation.
+      	</div>
+
+      </div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+  <!-- //last section// -->
+  <div class="container-fluid" id="sec-l">
+  	<div class="row">
+  		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center"  id="sec-1-l">
+  			<div  id="logo-l" data-aos="fade-up">Maithli</div>
+  	</div>
+
+  		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center" id="sec-2-l"data-aos="fade-up"> 
+  			<h1 data-aos="fade-right">quick links</h1>
+  			<p data-aos="fade-right">faqs</p>
+  			<p data-aos="fade-right">about</p>
+  			<p data-aos="fade-right">payments</p>
+  			<p data-aos="fade-right">contact-us</p>
+  	</div>
+
+  		<div class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto text-center"  id="sec-3-l" data-aos="fade-up">
+  			<h1 data-aos="fade-left"><i class="fa fa-home"></i> address</h1>
+  			<p data-aos="fade-left">mithila paintings heaven,shree pur hati,madhubani,bihar,india</p>
+  			<h1 data-aos="fade-left"><i class="fa fa-envelope"></i> email</h1>
+  			<p data-aos="fade-left">mithila1234@gmail.com</p>
+  			
+  			<input data-aos="fade-left" type="text" name="" placeholder="enter your email"><button data-aos="fade-left">subscribe</button>
+  			
+  	</div>
+
+  </div>
+
+</div>
+
+<div style="width: 100%;">
+	<p id="copyright" style="background-color: black;color:white;margin-bottom:0px;font-size: 20px;padding: 10px 0px 10px 0px ; font-weight: bolder;" class="text-center">Copyright ©2020 All rights reserved | this website is made by Ashu Jha.</p>
+</div>
+
+</body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+    	duration:1500,
+    });
+  </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+
+        breakpoints: {  
+    '400': {
+      slidesPerView: 1,
+      spaceBetween: 0,},
+    
+    '800': {
+      slidesPerView: 2,
+      spaceBetween: 40,},
+    '1000': {
+      slidesPerView: 3,
+      spaceBetween: 50, },
+  },
+    // Optional parameters   
+     freeMode: true,
+    loop: false,
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: true,},
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev', },
+
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      autoplay: { delay: 3100, },
+    });
+    
+  </script>
+
+
+  <script type="text/javascript">
+	var navicon =document.getElementById("navicon");
+	var navbg=document.getElementById("nav-bg");
+	var navi=document.getElementById("nav-i");
+
+function navfunction(){
+
+
+	navbg.style.width="100%";
+	navbg.style.height="100%";
+	navbg.style.position="absolute";
+	navbg.style.top="0px";
+	navbg.style.left="0px";
+	navbg.style.borderRadius="0%";
+	navbg.style.fontSize="40px";
+	navbg.style.visibility="visible";
+	navi.style.visibility="visible";
+
+
+
+}
+
+
+function closee()
+{
+
+	// list-style: none;
+		// position: absolute;
+		// top: 0px;
+		// left: 88%;
+		// background-color: #00FFAB;
+		// border-radius: 180px;
+		// width: 180px;
+		// height: 180px;
+		// padding: 50px;
+		// transition: 1s;
+		// z-index:99999;
+		// visibility: hidden;
+
+	navbg.style.width="180px";
+	navbg.style.height="180px";
+	navbg.style.visibility="hidden";
+	navbg.style.position="absolute";
+	navbg.style.top="0px";
+	navbg.style.left="0px";
+	navbg.style.padding="0px";
+	navbg.style.borderRadius="180px";
+	navbg.style.fontSize="0%";
+	navi.style.visibility="hidden";
+	
+
+
+}
+
+
+
+</script>
+
+</html>
